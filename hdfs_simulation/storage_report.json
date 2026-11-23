@@ -1,0 +1,67 @@
+{
+    "system": "HDFS Storage Simulation",
+    "dataset": "data/customers.csv",
+    "total_records": 1500,
+    "block_size_rows": 250,
+    "total_blocks": 6,
+    "replication_factor": 2,
+    "simulated_replica_copies": 12,
+    "storage_status": "SUCCESS",
+    "created_at": "2026-11-23 21:29:33",
+    "blocks": [
+        {
+            "block_name": "block_001.csv",
+            "rows": 250,
+            "original_location": "hdfs_simulation\\blocks\\block_001.csv",
+            "replicas": [
+                "hdfs_simulation\\replicas\\node_1\\block_001.csv",
+                "hdfs_simulation\\replicas\\node_2\\block_001.csv"
+            ]
+        },
+        {
+            "block_name": "block_002.csv",
+            "rows": 250,
+            "original_location": "hdfs_simulation\\blocks\\block_002.csv",
+            "replicas": [
+                "hdfs_simulation\\replicas\\node_1\\block_002.csv",
+                "hdfs_simulation\\replicas\\node_2\\block_002.csv"
+            ]
+        },
+        {
+            "block_name": "block_003.csv",
+            "rows": 250,
+            "original_location": "hdfs_simulation\\blocks\\block_003.csv",
+            "replicas": [
+                "hdfs_simulation\\replicas\\node_1\\block_003.csv",
+                "hdfs_simulation\\replicas\\node_2\\block_003.csv"
+            ]
+        },
+        {
+            "block_name": "block_004.csv",
+            "rows": 250,
+            "original_location": "hdfs_simulation\\blocks\\block_004.csv",
+            "replicas": [
+                "hdfs_simulation\\replicas\\node_1\\block_004.csv",
+                "hdfs_simulation\\replicas\\node_2\\block_004.csv"
+            ]
+        },
+        {
+            "block_name": "block_005.csv",
+            "rows": 250,
+            "original_location": "hdfs_simulation\\blocks\\block_005.csv",
+            "replicas": [
+                "hdfs_simulation\\replicas\\node_1\\block_005.csv",
+                "hdfs_simulation\\replicas\\node_2\\block_005.csv"
+            ]
+        },
+        {
+            "block_name": "block_006.csv",
+            "rows": 250,
+            "original_location": "hdfs_simulation\\blocks\\block_006.csv",
+            "replicas": [
+                "hdfs_simulation\\replicas\\node_1\\block_006.csv",
+                "hdfs_simulation\\replicas\\node_2\\block_006.csv"
+            ]
+        }
+    ]
+}
